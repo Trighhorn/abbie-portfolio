@@ -15,7 +15,7 @@ const Layout = ({ children, title = "This is the default title" }: Props) => (
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
     </Head>
     <header className="basis-1/12 bg-black text-white">
-      <nav>
+      <nav className="flex justify-end h-full">
         <Link href="/">
           <a>Home</a>
         </Link>{" "}

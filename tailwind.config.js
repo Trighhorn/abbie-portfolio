@@ -7,7 +7,7 @@ module.exports = {
     extend: {},
     colors: {
       current: "currentColor",
-      black: "#1E1D2F",
+      black: "#131020",
       rosewater: "#F5E0DC",
       flamingo: "#F2CDCD",
       muave: "#DDB6F2",
