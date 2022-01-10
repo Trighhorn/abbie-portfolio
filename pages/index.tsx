@@ -12,13 +12,13 @@ const IndexPage = () => (
         alt="Abbie Gonzalez"
         src="https://soe.ukzn.ac.za/wp-content/uploads/2018/04/profile-placeholder.png"
       />
-      <div className="bio text-xl text-center">
+      <div className="bio text-2xl text-center">
         Hello! I'm Abbie and I'm a Full Stack Software Developer.
         <br />
         I'm looking for opportunities in the MERN web development stack Have a
         look around
       </div>
-      <div className="links-wrapper flex gap-96 justify-center text-6xl">
+      <div className="links-wrapper flex gap-96 justify-center text-8xl">
         <Link href="https://github.com/Trighhorn">
           <FontAwesomeIcon icon={faGithub} />
         </Link>

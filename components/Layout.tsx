@@ -14,20 +14,18 @@ const Layout = ({ children, title = "This is the default title" }: Props) => (
       <meta charSet="utf-8" />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
     </Head>
-    <header className="basis-1/12 bg-black text-white">
-      <nav className="flex justify-end h-full">
+    <header className="basis-1/12 bg-black text-white flex w-full h-full items-center">
+      <div className="basis-5/6 flex pl-8 text-xl">ABBIE GONZALEZ</div>
+      <nav className="links basis-1/6 flex justify-evenly">
         <Link href="/">
           <a>Home</a>
-        </Link>{" "}
-        |{" "}
+        </Link>
         <Link href="/contact">
-          <a>contact</a>
-        </Link>{" "}
-        |{" "}
-        <Link href="/users">
-          <a>Users List</a>
-        </Link>{" "}
-        | <a href="/api/users">Users API</a>
+          <a>Contact</a>
+        </Link>
+        <Link href="/portfolio">
+        <a>Portfolio</a>
+        </Link>
       </nav>
     </header>
     {children}
